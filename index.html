@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Learning Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Music Learning Hub</h1>
+  <nav>
+    <a href="#theory">Music Theory</a>
+    <a href="#instruments">Instruments</a>
+    <a href="#quiz">Quiz</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Learn Music Theory & Instruments</h2>
+  <p>Understand notes, scales, rhythm, melody and popular musical instruments.</p>
+  <button onclick="showWelcome()">Start Learning</button>
+</section>
+
+<section id="theory">
+  <h2 class="title">Music Theory</h2>
+
+  <div class="grid">
+    <div class="box">
+      <h3>🎵 Notes</h3>
+      <p>Music notes are sounds with different pitches. Main notes are A, B, C, D, E, F and G.</p>
+    </div>
+
+    <div class="box">
+      <h3>🎼 Scale</h3>
+      <p>A scale is a group of notes arranged in order. Example: C major scale is C D E F G A B C.</p>
+    </div>
+
+    <div class="box">
+      <h3>🥁 Rhythm</h3>
+      <p>Rhythm is the pattern of beats in music. It controls the timing and movement of a song.</p>
+    </div>
+
+    <div class="box">
+      <h3>🎶 Melody</h3>
+      <p>Melody is a sequence of musical notes that sounds pleasant and forms the main tune.</p>
+    </div>
+  </div>
+</section>
+
+<section id="instruments">
+  <h2 class="title">Musical Instruments</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🎸 Guitar</h3>
+      <p>A string instrument played by strumming or plucking. Used in rock, pop and classical music.</p>
+      <button onclick="showInstrument('Guitar')">Know More</button>
+    </div>
+
+    <div class="card">
+      <h3>🎹 Piano</h3>
+      <p>A keyboard instrument with black and white keys. It is useful for learning melody and harmony.</p>
+      <button onclick="showInstrument('Piano')">Know More</button>
+    </div>
+
+    <div class="card">
+      <h3>🥁 Drums</h3>
+      <p>A percussion instrument used to create beats, rhythm and energy in music.</p>
+      <button onclick="showInstrument('Drums')">Know More</button>
+    </div>
+
+    <div class="card">
+      <h3>🎻 Violin</h3>
+      <p>A string instrument played with a bow. It is common in classical and orchestral music.</p>
+      <button onclick="showInstrument('Violin')">Know More</button>
+    </div>
+  </div>
+</section>
+
+<section id="quiz">
+  <h2 class="title">Quick Music Quiz</h2>
+
+  <div class="quiz-box">
+    <p>How many basic music notes are there?</p>
+    <input type="text" id="answer" placeholder="Enter your answer">
+    <button onclick="checkAnswer()">Check Answer</button>
+    <p id="result"></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Music Learning Hub</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

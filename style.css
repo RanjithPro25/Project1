@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Georgia, serif;
+}
+
+body{
+  background:#fff7e6;
+  color:#2b1d0e;
+}
+
+header{
+  background:#3b1f0f;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+
+header h1{
+  font-size:36px;
+}
+
+nav{
+  margin-top:15px;
+}
+
+nav a{
+  color:#ffd166;
+  text-decoration:none;
+  margin:15px;
+  font-weight:bold;
+}
+
+.hero{
+  text-align:center;
+  padding:70px 20px;
+  background:linear-gradient(135deg,#ff9f1c,#ffbf69);
+}
+
+.hero h2{
+  font-size:40px;
+}
+
+.hero p{
+  margin:15px;
+  font-size:18px;
+}
+
+button{
+  padding:12px 25px;
+  background:#3b1f0f;
+  color:white;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.title{
+  text-align:center;
+  margin:35px 0;
+  color:#3b1f0f;
+}
+
+.grid,
+.cards{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.box,
+.card{
+  background:white;
+  width:260px;
+  padding:22px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  border-top:5px solid #ff9f1c;
+}
+
+.card button{
+  margin-top:15px;
+}
+
+.quiz-box{
+  width:50%;
+  margin:auto;
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.quiz-box input{
+  width:80%;
+  padding:12px;
+  margin:15px;
+  border:1px solid #aaa;
+  border-radius:8px;
+}
+
+#result{
+  margin-top:15px;
+  font-weight:bold;
+}
+
+footer{
+  background:#3b1f0f;
+  color:white;
+  text-align:center;
+  padding:18px;
+  margin-top:40px;
+}
